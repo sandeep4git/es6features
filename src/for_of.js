@@ -42,25 +42,35 @@ const data = {
     john: false,
     michael: true
 }
-// for (const [key, value] of Object.entries(data)) {
-//     console.log(`${value}`);
+for (const [key, value] of Object.entries(data)) {
+    console.log(`${key}:${value}`);
+}
+
+// for (let i in data) {
+//     console.log(i);
 // }
-for (let i in data) {
-    console.log(i);
-}
 
-//for an array, for in will give you te index and properties 
-let arr = [3, 5, 7];
-arr.foo = "sandeep";
+// //for an array, for in will give you te index and properties 
+// let arr = [3, 5, 7];
+// arr.foo = "sandeep";
 
-for (let i in arr) {
-    //console.log(i);
-}
+// for (let i in arr) {
+//     //console.log(i);
+// }
 
-var data1 = function (data) {
-    for (let i in data) {
-        return i;
-    }
-}
-var arr1=Object.keys(data).map((keyName, keyIndex)=> keyName);
-console.log(arr1);
+// var data1 = function (data) {
+//     for (let i in data) {
+//         return i;
+//     }
+// }
+// var arr1=Object.keys(data).map((keyName, keyIndex)=> keyName);
+// console.log(arr1);
+
+console.log('<<<<>>>>>'+'10'===10);
+var bar =null;
+console.log(typeof bar);
+var gar=2;
+console.log(typeof gar);
+
+var arr3=[0,1,2,3,4,5,6,7,8,9];
+console.log(arr3.length);
