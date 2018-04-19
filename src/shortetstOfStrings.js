@@ -16,7 +16,7 @@ let short=arr.reduce(function(a,b){
     //console.log(a,b);
     return a.length<=b.length?a:b;
 })
-console.log(short);
+console.log(short); 
 
 var stringRotation = function(string1, string2) {
     if (string1.length !== string2.length) {

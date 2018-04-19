@@ -122,3 +122,9 @@ let numbers=[1,4,6,9,4,6,78];
 let max= Math.max(...numbers);
 
 console.log('Max Number within the Array! '+max);
+
+let short=arr.reduce(function(a,b){
+    //console.log(a,b);
+    return a.length<=b.length?a:b;
+})
+
